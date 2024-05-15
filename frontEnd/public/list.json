@@ -1,108 +1,123 @@
 [ 
-    {
-    "id":"1",
-      "name":"StoryBook",
-      "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
-      "price":"00",
-      "category":"free",
-      "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"
+
+ {
+      "name":"The Story Of My Experiments With Truth",
+      "author":"Mahatma Gandhi",
+      "title":"The Story of My Experiments with Truth (, lit. 'Experiments of Truth or Autobiography') is the autobiography of Mahatma Gandhi, covering his life from early childhood through to 1921. It was written in weekly installments and published in his journal Navjivan from 1925 to 1929.",
+      "price":"200",
+      "category":"Biography",
+      "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630508191i/58905550.jpg"
 },{
-    "id":"2",
-    "name":"ComedyBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
-    "price":"20",
-    "category":"enntainment",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
+    
+    "name":"The Guide",
+    "author":"R. K. Narayan",
+    "title":"The Guide is a 1958 novel written in English by the Indian author R. K. Narayan. Like most of his works, the events of this novel take place in Malgudi, a fictional town in South India. The novel describes the transformation of the protagonist, Raju, from a tour guide to a spiritual guide and then one of the greatest holy men of India.",
+    "price":"00",
+    "category":"Noval",
+    "image":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/TheGuide.jpg/220px-TheGuide.jpg"  
 },{
-    "id":"3",
-    "name":"SportsBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
-    "price":"50",
-    "category":"sports",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
+    
+    "name":"A Fine Balance",
+    "author":"Rohinton Mistry",
+    "title":"A Fine Balance is the second novel by Rohinton Mistry, published by McClelland and Stewart in 1995. Set in an unidentified city in India, initially in 1975 and later in 1984 during the turmoil of The Emergency,[2] the book focuses on four characters from varied backgrounds – Dina Dalal, Ishvar Darji, his nephew Omprakash Darji, and the young student Maneck Kohlah – who come together and develop a bond.",
+    "price":"00",
+    "category":"NOval",
+    "image":"https://upload.wikimedia.org/wikipedia/en/thumb/5/55/A_Fine_Balance.jpg/220px-A_Fine_Balance.jpg"  
 },{
-    "id":"4",
-    "name":"SongBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
+    
+    "name":"Midnight's Children",
+    "author":"Salman Rushdie",
+    "title":"Midnight's Children is a loose allegory for events in 1947 British Raj India and after the partition of India. The protagonist and narrator of the story is Saleem Sinai, born at the exact moment when India became an independent country. He was born with telepathic powers, as well as an enormous and constantly dripping nose with an extremely sensitive sense of smell. The novel is divided into three books. ",
+    "price":"300",
+    "category":"Noval",
+    "image":"https://upload.wikimedia.org/wikipedia/en/9/9d/MidnightsChildren.jpg"  
+},{
+    
+    "name":"Interpreter of Maladies",
+    "author":"Jhumpa Lahiri",
+    "title":"A Temporary Matter A married couple, Shukumar and Shoba, live as strangers in their house until an electrical outage brings them together when all of sudden they are able to talk to each other again in the four nights of darkness. From the point of view of Shukumar, we are given bits and pieces of memory which slowly gives insight into what has caused the distance in the marriage",
     "price":"100",
-    "category":"Music",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
+    "category":" short stories ",
+    "image":"https://upload.wikimedia.org/wikipedia/en/5/5f/Interpreterofmaladiescover.jpg"  
 },{
-    "id":"5",
-    "name":"StoryBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
+    
+    "name":"A Suitable Boy",
+    "author":"Vikram Seth",
+    "title":"A Suitable Boy is a novel by Vikram Seth, published in 1993. the English-language book is one of the longest novels published in a single volume.A Suitable Boy is set in a newly post-independence, post-partition India. ",
+    "price":"100",
+    "category":" A Novel",
+    "image":"https://upload.wikimedia.org/wikipedia/en/f/f6/Asuitableboy.jpg"  
+},{
+    
+    "name":"The God of Small Things",
+    "author":"Arundhati Roy",
+    "title":"The God of Small Things is a family drama novel written by Indian writer Arundhati Roy. It is a story about the childhood experiences of fraternal twins whose lives are destroyed by the Love Lawsprevalent in 1960s Kerala,India.",
+    "price":"500",
+    "category":"Novel",
+    "image":"https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Thegodofsmallthings.jpg/220px-Thegodofsmallthings.jpg"  
+},{
+    
+    "name":"The Glass Palace",
+    "author":"Amitav Ghosh",
+    "title":"The novel starts with an 11-year-old boy called Rajkumar running through the city of Mandalay to find a woman called Ma Cho. He is the last surviving member of his family and comes to Burma from India with a bright entrepreneurial spirit and a hunger for success.",
+    "price":"700",
+    "category":"Noval",
+    "image":"https://upload.wikimedia.org/wikipedia/en/f/fb/The_Glass_Palace.jpg"  
+},{
+    
+    "name":"The Inheritance of Loss",
+    "author":"Kiran Desai",
+    "title":"The Inheritance of Loss is the second novel by Indian author Kiran Desai. It was first published in 2006. It won a number of awards, including the Booker Prize for that year, the National Book Critics Circle Fiction Award in 2007,[1] and the 2006 Vodafone Crossword Book Award.",
+    "price":"300",
+    "category":"Novel",
+    "image":"https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Inheritance_of_loss_cover.jpg/220px-Inheritance_of_loss_cover.jpg"  
+},{
+    
+    "name":"The Private Life of an Indian Prince",
+    "author":"Mulk Raj Anand",
+    "title":"The Private Life of an Indian Prince is a novel by Mulk Raj Anand first published in 1953.[1] The book is classified as one of Anand's most impressive and important works.[2] In keeping with his other writings dealing with the topic of social and political reform, this book deals with the abolition of the princely states system in India.[3",
     "price":"00",
-    "category":"free",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
+    "category":"Novel",
+    "image":"https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/ThePrivateLifeOfAnIndianPrince.jpg/220px-ThePrivateLifeOfAnIndianPrince.jpg"  
 },{
-    "id":"6",
-    "name":"foodBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
-    "price":"200",
-    "category":"food",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
+    
+    "name":"Red Earth and Pouring Rain",
+    "author":"VIKRAM CHANDRA",
+    "title":"Vikram Chandra's first book, which is a tale told by a young Indian student and a typing monkey, and also a novel about exile, about Indians abroad and foreigners in India, about the processes of national and cultural and personal redefinitions implicit in these juxtapositions.",
+    "price":"400",
+    "category":"Fiction",
+    "image":"https://images.squarespace-cdn.com/content/v1/5f166f61da8afd09c3b580e5/1596171790052-8LW4PAA1R8ETOWFDOVX8/repr_big.jpg?format=1500w"  
 },{
-    "id":"7",
-    "name":"StoryBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
+    
+    "name":"Gitanjali",
+    "author":" Rabindranath Tagore",
+    "title":"“Gitanjali” is one of Rabindranath Tagore’s best known works for which he received the Nobel Prize in Literature in 1913. Many of the verses in Gitanjali are beautiful prayers written after a gut-wrenchingly painful period in Rabindranath Tagore’s  life, during which he lost his father",
+    "price":"500",
+    "category":"collection of poetry",
+    "image":"https://bookbins.in/wp-content/uploads/2022/01/Gitanjali-Rabindranath-Tagore-Buy-Online-Bookbins-1.png"  
+},{
+    
+    "name":"The Collector's Wife",
+    "author":"Mitra Phukan",
+    "title":"This is the story of Rukmini who is married to the District Collector of a small town in Assam, and teaches English literature in the local college. On the surface, her life is settled and safe in the big, beautiful bungalow on the hill above the cremation ground, seemingly untouched by the toil and sufferings of the common folk living 'below'.",
+    "price":"600",
+    "category":"Fiction",
+    "image":"https://m.media-amazon.com/images/I/81zHmDbDV9L._AC_UF1000,1000_QL80_.jpg"  
+},{
+    
+    "name":"Train to Pakistan",
+    "author":"Khushwant Singh",
+    "title":"Mano Majra, the fictional village on the border of Pakistan and India in which the story takes place, is predominantly Muslim and Sikh. Singh shows how they lived in a bubble, surrounded by mobs of Muslims who hate Sikhs and mobs of Sikhs who hate Muslims, while in the village they had always lived together peacefully.",
     "price":"00",
-    "category":"free",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
+    "category":"fictional",
+    "image":"https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Train_to_Pakistan.jpg/220px-Train_to_Pakistan.jpg"  
 },{
-    "id":"8",
-    "name":"StoryBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
+    
+    "name":"The Collected Poems",
+    "author":"Sylvia Plath",
+    "title":"By the time of her death, on 11 February, 1963, Sylvia Plath had written a large bulk of poetry.Tmy knowledge, she never scrapped any of her poetic efforts. With one or two exceptions, she brought every piece she worked on to some final form acceptable to her rejecting at most the odd verse, or a false head or a false tail.",
     "price":"00",
-    "category":"free",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
-},{
-    "id":"9",
-    "name":"StoryBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
-    "price":"00",
-    "category":"free",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
-},{
-    "id":"10",
-    "name":"StoryBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
-    "price":"00",
-    "category":"free",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
-},{
-    "id":"11",
-    "name":"StoryBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
-    "price":"00",
-    "category":"free",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
-},{
-    "id":"12",
-    "name":"StoryBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
-    "price":"00",
-    "category":"free",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
-},{
-    "id":"13",
-    "name":"StoryBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
-    "price":"00",
-    "category":"free",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
-},{
-    "id":"14",
-    "name":"StoryBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
-    "price":"00",
-    "category":"free",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
-},{
-    "id":"15",
-    "name":"StoryBook",
-    "title":"Lorem ipsum dolor sit amet. Ut aperiam omnis vel",
-    "price":"00",
-    "category":"free",
-    "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1714639716~exp=1714643316~hmac=c08971faade4fe1c9c889138c207eaba0c585d3e9aaa216f94a041b388967d91&w=740"  
-}
+    "category":"Poem",
+    "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1410756820i/2078076.jpg"  
+} 
 ]

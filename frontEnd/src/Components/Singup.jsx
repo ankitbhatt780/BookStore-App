@@ -1,15 +1,44 @@
 import { Link } from "react-router-dom";
 import Login from "./Login";
 import { useForm } from "react-hook-form";
+import axios from "axios";
+import toast from "react-hot-toast";
+
+import { useNavigate } from "react-router-dom";
 
 function Singup() {
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (data) => {
+    // console.log(data);
+    const userInfo = {
+      name: data.name,
+      email: data.email,
+      password: data.password,
+    };
+    try {
+      const res = await axios.post(
+        "http://localhost:3005/user/newuser",
+        userInfo
+      );
+      // console.log(res);
+      if (res.status === 200) {
+        // localStorage.setItem("user", JSON.stringify(res.data.user));
+        toast.success("signup Successful ");
+        navigate("/");
+      }
+    } catch (err) {
+      toast.error(err.response.data.msg);
+    }
+    reset();
+  };
 
   return (
     <div>

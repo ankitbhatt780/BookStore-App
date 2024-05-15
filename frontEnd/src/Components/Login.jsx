@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
+import axios from "axios";
+// import Cookie from "js-cookie";
+import toast from "react-hot-toast";
+
 import { useNavigate } from "react-router-dom";
 function Login() {
   const navigate = useNavigate();
@@ -7,24 +11,54 @@ function Login() {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log("Ankit", data);
+  const onSubmit = async (data) => {
+    console.log(data);
+    const userInfo = {
+      email: data.email,
+      password: data.password,
+    };
+    try {
+      const res = await axios.post(
+        "http://localhost:3005/user/login",
+        userInfo
+      );
+      console.log(res);
+      if (res.status === 200) {
+        localStorage.setItem("user", JSON.stringify(res.data.user));
+        // Cookie.set("Email", res.data.email);
+        // Cookie.set("authToken", res.data.authToken, { path: "/" });
+        document.getElementById("my_modal_3").close();
+
+        toast.loading("Loading....");
+        await new Promise((resolve) => setTimeout(resolve, 2000));
+        toast.success("Login SuccessFull");
+        window.location.reload();
+        navigate("/");
+      }
+    } catch (err) {
+      toast.error(err.response.data.msg);
+    }
+    reset();
   };
+
   return (
     <div className="modal-container">
       <dialog id="my_modal_3" className="modal">
         <div className="modal-box">
           <form onSubmit={handleSubmit(onSubmit)} method="dialog">
             {/* if there is a button in form, it will close the modal */}
-            <div
-              onClick={() => navigate("/")}
-              className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+            <Link
+              to="/"
+              // onClick={navigate("/")}
+              className=" btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+              onClick={() => document.getElementById("my_modal_3").close()}
             >
               ✕
-            </div>
+            </Link>
 
             <div className="item-center justify-center text-center  container rounded-md">
               <h1 className="font-bold text-2xl outline-none mt-5">Login</h1>
